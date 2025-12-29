@@ -1,0 +1,12 @@
+{
+  "productions": [
+    {"id":1,"name":"Liberty Theatre","slug":"liberty-theatre","email":"info@liberty.example"},
+    {"id":2,"name":"Theatrix Arts","slug":"theatrix-arts","email":"info@theatrix.example"}
+  ],
+  "performances":[
+    {"id":1,"production_id":1,"title":"Highschool Setbook A","category":"high_school","price_per_audience":80},
+    {"id":2,"production_id":1,"title":"Church Play - St Luke","category":"church","price_per_audience":100},
+    {"id":3,"production_id":2,"title":"Junior Secondary Setbook B","category":"junior_secondary","price_per_audience":60},
+    {"id":4,"production_id":2,"title":"Community Drama - Outreach","category":"other","price_per_audience":50}
+  ]
+}
